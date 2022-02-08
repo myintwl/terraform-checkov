@@ -5,7 +5,6 @@ on:
 jobs:
  checkov:
     runs-on: ubuntu-latest
-    name: bridgecrewio/checkov-action@master
     steps:
      - name : checkout repo
        uses: actions/checkout@master
