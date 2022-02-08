@@ -15,8 +15,6 @@ jobs:
        with:
           directory: "."
           framework: terraform
-          check: CKV_AWS_1 # optional: run only a specific check_id. can be comma separated list
-          skip_check: CKV_AWS_2 # optional: skip a specific check_id. can be comma separated list
           quiet: true # optional: display only failed checks
           soft_fail: true # optional: do not return an error code if there are failed checks
           output_format: sarif # optional: the output format, one of: cli, json, junitxml, github_failed_only, or sarif. Default: sarif
