@@ -74,8 +74,8 @@ resource "aws_security_group" "web-node" {
 
 resource "aws_vpc" "web_vpc" {
   cidr_block           = "172.16.0.0/16"
-  enable_dns_hostnames = true
-  enable_dns_support   = true
+  enable_dns_hostnames = false
+  enable_dns_support   = false
 }
 
 resource "aws_subnet" "web_subnet" {
