@@ -1,4 +1,4 @@
-name: build
+name: checkov
 on:
   pull_request
 
