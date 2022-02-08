@@ -15,6 +15,6 @@ jobs:
           directory: "."
           framework: terraform
           download_external_modules: true 
-          soft_fail: true
+          #soft_fail: true
           output_format: sarif
           quiet: true
