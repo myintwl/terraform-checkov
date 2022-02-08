@@ -17,4 +17,4 @@ jobs:
           download_external_modules: true 
           soft_fail: true
           output_format: sarif
-          quiet: true
+          #quiet: true
