@@ -9,7 +9,11 @@ jobs:
     steps:
      - name : checkout repo
        uses: actions/checkout@master
-       with: 
+     - name: Test with Checkov
+       id: checkov
+       uses: bridgecrewio/checkov-action@master
+       with:
           directory: "."
+          framework: terraform
           
      
