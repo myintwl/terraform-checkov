@@ -17,7 +17,7 @@ jobs:
           framework: terraform
           download_external_modules: true 
           log_level: DEBUG
-          output_format: sarif
+          #output_format: sarif
           quiet: true
           
 
